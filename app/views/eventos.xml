@@ -1,0 +1,15 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Eventos">
+			<Window class="container" title="Evento" layout="vertical">
+				<Label>Selecione o evento</Label>
+				<TableView id="viewEventos"></TableView>
+			</Window>
+		</Tab>
+		<Tab title="Configurações">
+			<Window class="container" title="Config" layout="vertical">
+				<Label>Aqui vai as configurações</Label>
+			</Window>			
+		</Tab>
+	</TabGroup>	
+</Alloy>

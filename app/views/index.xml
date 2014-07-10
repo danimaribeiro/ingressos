@@ -1,0 +1,10 @@
+<Alloy>
+	<Window title="BsTickets - Entrar" class="container" layout="vertical">
+		<Label top="10%">E-mail</Label>
+		<TextField id="email" value="admin"></TextField>
+		<Label>Senha</Label>
+		<TextField id="senha" passwordMask="true" value="123"></TextField>
+		<Button onClick="entrar_click">Entrar</Button>
+		<Button onClick="sair_click">Sair</Button>
+	</Window>
+</Alloy>

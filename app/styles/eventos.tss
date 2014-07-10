@@ -1,0 +1,6 @@
+".container" : {
+  
+},
+"TableViewRow":{
+	height:'30'
+}
