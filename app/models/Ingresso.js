@@ -3,6 +3,7 @@ exports.definition = {
 		columns: {
 		    "id": "int",
 		    "id_unico": "string",
+		    "codigo_barra":"string",
 		    "evento_id": "int",
 		    "categoria": "string",
 		    "cliente": "string",

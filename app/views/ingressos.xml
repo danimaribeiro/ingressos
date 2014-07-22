@@ -1,12 +1,12 @@
 <Alloy>
 	<Window id="janela" class="container" layout="vertical">
 		<Button onClick="scanCode">Escanear Ingresso</Button>
-		<Label>ou digitar o número do ingresso</Label>
+		<Label>ou digitar o código de barras</Label>
 		<TextField id="numeroIngresso" width="Ti.UI.FILL" keyboardType="Ti.UI.KEYBOARD_NUMBER_PAD"></TextField>
-		<Button>Consultar</Button>
+		<Button onClick="consultarCodigo">Consultar</Button>
 		<Label top="10">Dados do Ingresso:</Label>>
-		<Label top="5">Código Escaneado</Label>
-		<TextField id="txtCodigo" width="Ti.UI.FILL" editable="false"></TextField>
+		<Label top="5">Categoria</Label>
+		<TextField id="txtCategoria" width="Ti.UI.FILL" editable="false"></TextField>
 		<Label>Cliente</Label>
 		<TextField id="txtCliente" width="Ti.UI.FILL" editable="false"></TextField>	
 		<Label>Cpf</Label>

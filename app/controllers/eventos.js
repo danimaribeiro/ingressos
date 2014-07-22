@@ -34,3 +34,7 @@ $.viewEventos.addEventListener('click', function(e) {
 		Ingresso.open();		
    	}  
 });
+
+function limparCache(e){
+	Ti.Api.Info('Limpar dados');
+};

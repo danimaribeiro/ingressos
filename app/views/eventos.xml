@@ -1,5 +1,5 @@
 <Alloy>
-	<TabGroup>
+	<TabGroup exitOnClose="true" >
 		<Tab title="Eventos">
 			<Window class="container" title="Evento" layout="vertical">
 				<Label>Selecione o evento</Label>
@@ -9,6 +9,7 @@
 		<Tab title="Configurações">
 			<Window class="container" title="Config" layout="vertical">
 				<Label>Aqui vai as configurações</Label>
+				<Button onClick="limparDados">Limpar cache</Button>
 			</Window>			
 		</Tab>
 	</TabGroup>	
